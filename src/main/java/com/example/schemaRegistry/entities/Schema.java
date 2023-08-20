@@ -1,4 +1,4 @@
-package com.example.schemaRegistry;
+package com.example.schemaRegistry.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
