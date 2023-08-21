@@ -10,16 +10,18 @@ public class Schema {
     private String name;
     private String version;
     private String schemaDsp;
+    private String schemaJson;
 
     public Schema() {
 
     }
 
-    public Schema(Integer id, String name, String version, String schemaDsp) {
+    public Schema(Integer id, String name, String version, String schemaDsp, String schemaJson) {
         this.id = id;
         this.name = name;
         this.version = version;
         this.schemaDsp = schemaDsp;
+        this.schemaJson = schemaJson;
     }
 
     public Integer getId() {
@@ -52,5 +54,11 @@ public class Schema {
 
     public void setSchemaDsp(String schemaDsp) {
         this.schemaDsp = schemaDsp;
+    }
+    public String getSchemaJson() {
+        return schemaJson;
+    }
+    public void setSchemaJson(String schemaJson) {
+        this.schemaJson = schemaJson;
     }
 }
